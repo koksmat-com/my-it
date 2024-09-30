@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -74,22 +74,11 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'enhederSidebar',
+          sidebarId: 'oversigtSidebar',
           position: 'left',
-          label: 'Enheder',
+          label: 'Oversigt',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'sikkerhedSidebar',
-          position: 'left',
-          label: 'Sikkerhed',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'dataSidebar',
-          position: 'left',
-          label: 'Data',
-        },
+        
         {
           type: 'docSidebar',
           sidebarId: 'privatSidebar',
@@ -107,6 +96,24 @@ const config: Config = {
           sidebarId: 'situationerSidebar',
           position: 'left',
           label: 'Situationer',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'enhederSidebar',
+          position: 'left',
+          label: 'Enheder',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'sikkerhedSidebar',
+          position: 'left',
+          label: 'Sikkerhed',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'dataSidebar',
+          position: 'left',
+          label: 'Data',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -152,14 +159,14 @@ const config: Config = {
               label: 'Blog',
               to: '/blog',
             },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            // {
+            //   label: 'GitHub',
+            //   href: 'https://github.com/facebook/docusaurus',
+            // },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} koksmat og Niels Gregers Johansen`,
     },
     prism: {
       theme: prismThemes.github,
