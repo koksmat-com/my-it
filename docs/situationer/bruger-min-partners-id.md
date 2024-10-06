@@ -14,6 +14,12 @@ Hvis du har brugt en iPad, der er knyttet til din partners Apple ID, og nu ønsk
 For at vælge denne løsning, omdøber du ganske enkelt din partners eksisterende Apple ID, så det nu er tilknyttet dit navn og e-mail. Det betyder, at du overtager kontoen, mens alle de tilhørende data, indstillinger, og køb forbliver knyttet til kontoen.
 
 [How to Change Your Apple ID](https://support.apple.com/en-us/HT202667)
+
+Det er faktisk nemt gjort.
+
+Men så er der mange andre steder hvor din partners for- og efternavn fremgår, dem må du jagte og ændre en for en.
+
+MEN, inden du går i gang med det, så vent heller 24 timer, så systemerne når at opdatere sig.
 :::
 ### Hvordan det fungerer:
 Hvis du vælger denne løsning, omdøber du ganske enkelt din partners eksisterende Apple ID, så det nu er tilknyttet dit navn og e-mail. Det betyder, at du overtager kontoen, mens alle de tilhørende data, indstillinger, og køb forbliver knyttet til kontoen.
